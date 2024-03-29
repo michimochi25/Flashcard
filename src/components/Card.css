@@ -1,0 +1,40 @@
+#card {
+    display: grid;
+    grid-template-rows: 15% 15% 10% 15% 20% 20%;
+    padding: 10px;
+    margin: auto;
+    width: 25vw;
+    height: 60vh;
+    background-color: #F3DFA2;
+    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+button {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+button:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.kanji {
+    font-size: 5vw;
+}
+
+h2 {
+    font-size: 2vw;
+}
+
+.arrow-container {
+    display: flex;
+    justify-content: center;
+}
+
+.week {
+    margin: 0;
+    padding: 0;
+}
