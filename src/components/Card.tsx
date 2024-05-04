@@ -1,7 +1,7 @@
 import './Card.css'
 import { useState } from 'react';
 
-function Card({ kanjiList }) {
+function Card({ kanjiList }: any) {
     const [weekIndex, setWeekIndex] = useState(0);
     const [currentIndex, setCurrentIndex] = useState(0);
     const [showAnswer, setShowAnswer] = useState(false);
