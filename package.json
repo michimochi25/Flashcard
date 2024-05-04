@@ -2,6 +2,8 @@
   "name": "flashcard",
   "private": true,
   "homepage": "https://michimochi25.github.io/Kanji-Flashcard/",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
