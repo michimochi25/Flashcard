@@ -2,7 +2,7 @@
   "name": "flashcard",
   "private": true,
   "homepage": "https://michimochi25.github.io/Kanji-Flashcard",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
