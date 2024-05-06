@@ -1,7 +1,7 @@
 {
   "name": "flashcard",
   "private": true,
-  "homepage": "https://michimochi25.github.io/Kanji-Flashcard",
+  "homepage": ".",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
