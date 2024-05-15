@@ -57,8 +57,8 @@ function Card({ kanjiList }: any) {
     return (
         <div id="card">
             <div className='arrow-container'>
-                <button onClick={decrement}>PREV</button>
-                <button onClick={increment}>NEXT</button>
+                <button onClick={decrement}>&lt;</button>
+                <button onClick={increment}>&gt;</button>
             </div>
 
             <button onClick={toggleAnswer}>Show Answer</button>
