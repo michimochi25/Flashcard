@@ -61,7 +61,7 @@ function Card({ kanjiList }: any) {
                 <button onClick={increment}>&gt;</button>
             </div>
 
-            <button onClick={toggleAnswer}>Show Answer</button>
+            <button id="showAnswerBtn" onClick={toggleAnswer}>Show Answer</button>
             <h2 className='week'>Week: {weekIndex + 1}</h2>
             {renderCurrentItem()}
             {renderAnswer()}

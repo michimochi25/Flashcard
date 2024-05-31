@@ -5,7 +5,7 @@ body {
   align-items: center;
   text-align: center;
   height: 100vh;
-  margin: 0;
+  margin: 30px;
 }
 
 h1 {
@@ -15,9 +15,7 @@ h1 {
 }
 
 .card {
-  margin: auto;
-  width: 25vw;
-  height: 60vh;
+  height: auto;
   background-color: #F3DFA2;
   border-radius: 20px;
   align-items: center;

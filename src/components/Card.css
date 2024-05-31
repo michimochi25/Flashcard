@@ -1,9 +1,10 @@
 #card {
     display: grid;
-    grid-template-rows: 15% 15% 10% 15% 20% 20%;
+    grid-template-rows: 10% 15% 15% 20% 20% 20%;
     padding: 10px;
+    min-width: 40vw;
+    max-width: 380px;
     margin: auto;
-    width: 25vw;
     height: 60vh;
     background-color: #F3DFA2;
     border-radius: 20px;
@@ -12,9 +13,14 @@
 }
 
 button {
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
+    max-height: 90%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin: auto;
+}
+
+#showAnswerBtn {
+    width: 80%;
 }
 
 button:hover {
@@ -22,16 +28,18 @@ button:hover {
 }
 
 .kanji {
-    font-size: 5vw;
+    font-size: 57px;
 }
 
 h2 {
-    font-size: 2vw;
+    font-size: 30px;
 }
 
 .arrow-container {
     display: flex;
     justify-content: center;
+    width: 100%;
+    height: 100%;
 }
 
 .week {
